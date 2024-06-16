@@ -1,0 +1,48 @@
+body {
+    background-color: beige;
+    margin: 0;
+}
+header {
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#H1,p {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15PX;
+    padding: 5px;
+}
+#resultado {
+    width: 80%;
+    margin: auto;
+    border: 1px solid;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#H2 {
+    background-color: black;
+    width: 20%;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+#circulo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+    background-color: white;
+    text-align: center;
+}

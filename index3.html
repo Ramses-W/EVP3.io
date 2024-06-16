@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVP3</title>
+    <link rel="shortcut icon" href="https://net.ecala.net/storage/media/I488LfNcYokpjtd6TbU4kKd1TOJAigXL5zdQoVWg.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <h1 id="H1">II.	Estructura repetitiva While</h1>
+        <p>3. Diseñar un programa que permita calcular los 4 primeros números pares para posteriormente calcular su media aritmética.</p>
+    </header>
+    <main>
+        <h3 style="text-align: center; background-color: green; width: 15%; margin: auto; color: white; border-radius: 20px; padding: 5px;">Resultado</h3>
+        <div id="resultado">
+            <script>
+                var i = 0;
+                var suma = 0;
+                var numero;
+
+                while (i < 4) {
+                numero = parseInt(prompt("Ingrese un número par: "));
+                if (numero % 2 === 0) {
+                    suma += numero;
+                    i++;
+                    document.write("Número par ingresado: " + numero + "<br>");
+                } else {
+                    alert("El número ingresado no es par. Intente nuevamente.");
+                }
+                }
+
+                var media = suma / i;
+                document.write("La suma de los números pares es: " + suma + "<br>");
+                document.write("La media aritmética de los números pares es: " + media + "<br>");
+            </script>
+        </div>
+    </main>
+    <br>
+    <footer>
+      <a href="index4.html"><h2 id="H2">Siguiente problema</h2></a>
+    </footer>
+</body>
+</html>

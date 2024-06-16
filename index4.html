@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVP3</title>
+    <link rel="shortcut icon" href="https://net.ecala.net/storage/media/I488LfNcYokpjtd6TbU4kKd1TOJAigXL5zdQoVWg.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <header>
+        <h1 id="H1">II.	Estructura repetitiva While</h1>
+        <p>4. Dado N calcular: (11)+(22)+(33)+……(NN)</p>
+    </header>
+    <main>
+        <h3 style="text-align: center; background-color: green; width: 15%; margin: auto; color: white; border-radius: 20px; padding: 5px;">Resultado</h3>
+        <div id="resultado">
+            <script>
+                var n = parseInt(prompt("Ingrese un número: "));
+                var suma = 0;
+                var i = 1;
+
+                while (i<= n) {
+                suma += i * 11;
+                i++;
+                }
+
+                document.write("N: " +n+ "<br>");
+                document.write("La suma es: " +suma+ "<br>");
+            </script>
+        </div>
+    </main>
+    <br>
+    <footer>
+      <a href="index5.html"><h2 id="H2">Siguiente problema</h2></a>
+    </footer>
+</body>
+</html>
